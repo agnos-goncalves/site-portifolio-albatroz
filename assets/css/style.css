@@ -3,15 +3,32 @@ body {
 }
 
 /* TITLES  */
+.title {
+  font-weight: bold;
+}
 
 h1.title {
-  font-weight: bold;
   font-size: 62px;
 }
 
 h2.title {
-  font-weight: bold;
   font-size: 42px;
+}
+
+h3.title {
+  font-size: 36px;
+}
+
+h4.title {
+  font-size: 24px;
+}
+
+h5.title {
+  font-size: 18px;
+}
+
+h6.title {
+  font-size: 12px;
 }
 
 /* BUTTONS  */
