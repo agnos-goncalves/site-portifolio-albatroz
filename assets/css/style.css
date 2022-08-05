@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  color: #18171c;
 }
 
 /* TITLES  */
@@ -9,26 +10,32 @@ body {
 
 h1.title {
   font-size: 62px;
+  line-height: 5rem;
 }
 
 h2.title {
   font-size: 42px;
+  line-height: 4rem;
 }
 
 h3.title {
   font-size: 36px;
+  line-height: 3rem;
 }
 
 h4.title {
   font-size: 24px;
+  line-height: 2rem;
 }
 
 h5.title {
   font-size: 18px;
+  line-height: 2rem;
 }
 
 h6.title {
   font-size: 12px;
+  line-height: 1rem;
 }
 
 /* BUTTONS  */
@@ -40,8 +47,16 @@ h6.title {
   font-weight: 300;
 }
 
-.logo {
-  padding: 90px;
-  margin-top: -150px;
+/* HEADER  */
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo figcaption {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.8rem;
+  margin-left: 8px;
 }
