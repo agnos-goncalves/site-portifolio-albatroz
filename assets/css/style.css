@@ -1,6 +1,12 @@
+:root {
+  --cor-roxa: #8873ef;
+  --cor-preta: #18171c;
+  --cor-cinza: #464549;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
-  color: #18171c;
+  color: var(--cor-preta);
 }
 
 /* TITLES  */
@@ -41,11 +47,12 @@ h6.title {
 .texto {
   font-size: 16px;
   line-height: 1.3rem;
+  color: var(--cor-cinza);
 }
 
 /* BUTTONS  */
 .btn-primary {
-  background-color: #8873ef;
+  background-color: var(--cor-roxa);
   color: white;
   border-radius: 4px;
   padding: 4px;
@@ -53,7 +60,6 @@ h6.title {
 }
 
 /* HEADER  */
-
 .logo {
   display: flex;
   align-items: center;
@@ -64,4 +70,13 @@ h6.title {
   font-weight: 600;
   line-height: 1.8rem;
   margin-left: 8px;
+}
+
+.nav .nav-link {
+  margin-right: 12px;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--cor-preta);
+  font-family: "Montserrat", sans-serif;
 }
